@@ -1,0 +1,5 @@
+print("Knowledge is power!")
+print("")
+print("Knowledge\nis\npower")
+print("")
+print("======================\n|                    |\n| Knowledge is power |\n|                    |\n======================")
