@@ -8,9 +8,10 @@ def findlargerst(listOfNumbers):
             continue
     return i
 
+
 A = int(input("A = "))
 B = int(input("B = "))
 C = int(input("C = "))
 
-listnumbers = [A,B,C]
+listnumbers = [A, B, C]
 print(findlargerst(listnumbers))

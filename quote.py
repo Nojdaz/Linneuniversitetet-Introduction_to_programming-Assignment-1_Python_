@@ -1,2 +1,2 @@
-quote = input("Write a line of text: ")
+quote = input("Write a line of text:")
 print("\""+quote+"\"")

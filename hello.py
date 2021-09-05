@@ -1,2 +1,2 @@
-# The classical "Hello World!" program. 
+# The classical "Hello World!" program.
 print("Hello World!")

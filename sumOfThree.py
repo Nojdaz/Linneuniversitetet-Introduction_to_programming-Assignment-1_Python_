@@ -4,6 +4,7 @@ def sumOfDigits(threeDigits):
         sum = sum + int(threeDigits[i])
     return sum
 
+
 while True:
     if __name__ == "__main__":
         threeDigitNumber = input("Enter a three digit number: ")
