@@ -5,7 +5,11 @@ def sumOfDigits(threeDigits):
     return sum
 
 
-while True:
-    if __name__ == "__main__":
-        threeDigitNumber = input("Enter a three digit number: ")
-        print(sumOfDigits(threeDigitNumber))
+if __name__ == "__main__":
+   while True:
+        try: 
+            threeDigitNumber = input("Enter a three digit number: ")
+            print(sumOfDigits(threeDigitNumber))
+    
+        except:
+         continue
