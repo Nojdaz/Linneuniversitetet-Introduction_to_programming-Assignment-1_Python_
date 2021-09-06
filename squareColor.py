@@ -5,6 +5,7 @@ def squareCalc(coordinate):
     else:
         return "White"
 
-
-coordinate = input("Enter a chess square identifier (e.g. e5):")
-print(squareCalc(coordinate))
+if __name__ == "__main__":
+   while True:
+        coordinate = input("Enter a chess square identifier (e.g. e5):")
+        print(squareCalc(coordinate))

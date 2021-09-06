@@ -1,3 +1,12 @@
-radius = input("Enter the circle radius: ")
-A = 3.14*float(radius)**2
-print("This circles area is:", A)
+def CalcCircleArea(Radius):
+    A = 3.14*float(Radius)**2
+    return A
+
+
+if __name__ == "__main__":
+    while True:
+        try:
+            radius = input("Enter the circle radius: ")
+            print("This circles area is:", CalcCircleArea(radius))
+        except:
+            continue
