@@ -5,7 +5,7 @@ def squareCalc(coordinate):
 
 
 if __name__ == "__main__":
-   while True:
+    while True:
         try:
             coordinate = input("Enter a chess square identifier (e.g. e5):")
             print(squareCalc(coordinate))
