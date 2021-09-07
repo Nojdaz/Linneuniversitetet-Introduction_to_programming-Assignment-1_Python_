@@ -1,6 +1,5 @@
 import random
 
-
 sum = 0
 rnglist = []
 for x in range(0, 5):
@@ -10,6 +9,3 @@ for x in range(0, 5):
 
 print("Five random numbers:", rnglist, "\n")
 print("The sum is:", sum)
-
-
-
