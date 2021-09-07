@@ -1,8 +1,6 @@
 def squareCalc(coordinate):
-    if (ord(coordinate[0])) % 2 == int(coordinate[1]) % 2:
-        return "Black"
 
-    else:
+    if (ord(coordinate[0]) + int(coordinate[1])) % 2:
         return "White"
 
 if __name__ == "__main__":
